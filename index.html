@@ -3,9 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pixelyt</title>
-<meta name="description" content="Pixelyt organises the photos, screenshots, videos and documents already on your Android phone. Offline, private, nothing uploaded.">
-<link rel="icon" href="icon.png">
+<title>Apps</title>
+<meta name="description" content="Privacy policies and support pages for my apps.">
 <style>
   :root { --bg: #fafbff; --text: #1b2240; --muted: #4f5878; --card: #ffffff; --line: #e3e6f2; --accent: #2f5bea; }
   @media (prefers-color-scheme: dark) {
@@ -14,35 +13,30 @@
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   main { max-width: 760px; margin: 0 auto; padding: 48px 18px 64px; }
-  .hero { display: flex; align-items: center; gap: 18px; }
-  .hero img { width: 88px; height: 88px; border-radius: 22px; }
-  h1 { font-size: 40px; margin: 0; line-height: 1.1; }
-  .tag { color: var(--muted); margin: 6px 0 0; }
-  ul.points { list-style: none; padding: 0; margin: 32px 0; display: grid; gap: 12px; }
-  ul.points li { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; }
+  h1 { font-size: 34px; margin: 0 0 4px; line-height: 1.2; }
+  .muted { color: var(--muted); margin: 0 0 28px; }
+  ul.apps { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+  ul.apps li { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; display: flex; align-items: center; gap: 16px; }
+  ul.apps img { width: 56px; height: 56px; border-radius: 14px; flex: none; }
+  .name { font-weight: 600; font-size: 19px; }
+  .links { font-size: 15.5px; }
   a { color: var(--accent); }
-  footer { color: var(--muted); font-size: 15px; border-top: 1px solid var(--line); padding-top: 18px; margin-top: 40px; }
 </style>
 </head>
 <body>
 <main>
-  <div class="hero">
-    <img src="icon.png" alt="Pixelyt icon">
-    <div>
-      <h1>Pixelyt</h1>
-      <p class="tag">Find anything. Organise everything. Move nothing.</p>
-    </div>
-  </div>
-  <ul class="points">
-    <li><strong>Your gallery, organised.</strong> Photos, screenshots, videos and documents, linked to the people, places, objects and projects they belong to.</li>
-    <li><strong>Search that understands your photos.</strong> Find a photo by a word written in it, by colour, by date or by type.</li>
-    <li><strong>Private by design.</strong> No internet permission, no accounts, no ads, no tracking. Nothing leaves your phone unless you share or export it.</li>
-    <li><strong>No copies.</strong> Pixelyt works with the files you already have and never duplicates or moves them unless you ask.</li>
+  <h1>Apps</h1>
+  <p class="muted">Privacy policies and support pages for my apps.</p>
+  <ul class="apps">
+    <li>
+      <img src="pixelyt/icon.png" alt="">
+      <div>
+        <div class="name"><a href="pixelyt/">Pixelyt</a></div>
+        <div class="muted" style="margin:0">Private, offline gallery organiser for Android</div>
+        <div class="links"><a href="pixelyt/privacy.html">Privacy policy</a></div>
+      </div>
+    </li>
   </ul>
-  <p><a href="privacy.html">Privacy policy</a></p>
-  <footer>
-    Pixelyt for Android. Questions or feedback: <a href="mailto:varunbansal1409@gmail.com">varunbansal1409@gmail.com</a>
-  </footer>
 </main>
 </body>
 </html>
