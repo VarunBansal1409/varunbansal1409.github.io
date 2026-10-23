@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JapDhara Privacy Policy</title>
+<meta name="description" content="Privacy policy for the JapDhara Android app. JapDhara works offline with no account; optional Google sign-in syncs your jap history between your devices.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #fdf9f3; --text: #2a1f14; --muted: #6b5a47; --card: #ffffff; --line: #eadfce; --accent: #a8520a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15110c; --text: #f3e9db; --muted: #b9a891; --card: #1f1912; --line: #3a2f22; --accent: #f2b45a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 18px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header img { width: 56px; height: 56px; border-radius: 14px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+  h2 { font-size: 21px; margin: 36px 0 8px; }
+  h3 { font-size: 18px; margin: 22px 0 6px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 22px; margin: 24px 0; }
+  .summary ul { margin: 8px 0 0; padding-left: 20px; }
+  .table { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15.5px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  code { font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="JapDhara icon">
+  <div>
+    <h1>JapDhara Privacy Policy</h1>
+    <div class="muted">Effective 23 October 2026</div>
+  </div>
+</header>
+
+<p>This policy explains how the JapDhara Android app (package <code>com.japdhara.japdhara</code>) handles your
+information. JapDhara is a naam jap and mantra counter published on Google Play by <strong>JapDhara</strong>
+("we", "us").</p>
+
+<div class="summary">
+  <strong>In short</strong>
+  <ul>
+    <li>JapDhara works fully without an account. Your jap history, mantras, recordings and pictures are stored on your phone.</li>
+    <li>If you choose to sign in with Google, your jap history, mantras and sankalpa vows are copied to our cloud database so they can sync between your devices. Only your account can read them.</li>
+    <li>Counting by voice listens on your phone. Your voice is never uploaded, and recordings you make never leave your phone unless you export a backup yourself.</li>
+    <li>No ads, no analytics, no tracking. We never sell or share your data.</li>
+    <li>You can delete your account and its cloud data at any time, from the app or by email.</li>
+  </ul>
+</div>
+
+<h2>1. Using JapDhara without an account</h2>
+<p>You can use every feature without signing in. Everything you create is kept in a private database inside
+the app's own storage on your phone, which other apps cannot read:</p>
+<ul>
+  <li>your jap sittings: the date and time, the mantra, the count, malas, the time spent and how you counted (tap, voice, handwriting and so on);</li>
+  <li>your mantras, including any you write yourself (name, text, meaning, deity) and which ones you starred;</li>
+  <li>your sankalpa vows (target, dates and any note you add), goals, streaks and achievements;</li>
+  <li>your settings, such as language, theme, reminders and app lock;</li>
+  <li>pictures and recordings you add to your mantras (see sections 3 and 4).</li>
+</ul>
+<p>We do not receive any of this. It stays until you delete it in the app, clear the app's storage, or uninstall
+JapDhara, which removes it all.</p>
+
+<h2>2. Optional Google sign-in and sync</h2>
+<p>Under <strong>More › Sync</strong> you can sign in with your Google account to keep your practice in step on
+several devices. Sync runs only when you sign in or tap <em>Sync now</em>. It uses two Google services that
+work for us as service providers: <strong>Firebase Authentication</strong> to sign you in and <strong>Cloud
+Firestore</strong> to store the synced copy.</p>
+<h3>What is stored in the cloud when you sign in</h3>
+<ul>
+  <li><strong>Account details:</strong> a user ID, and the email address, name and profile picture link that your
+    Google account provides to Firebase Authentication. The app shows your email address on the Sync screen and
+    uses the user ID to keep your data separate.</li>
+  <li><strong>Jap sittings:</strong> date, time, mantra, count, malas, time spent and counting method.</li>
+  <li><strong>Mantras:</strong> the mantra list with any mantras you wrote, their names, text and meaning, deity,
+    colour, starred or archived state, and the <em>file names</em> of their picture and recording (not the files).</li>
+  <li><strong>Sankalpa vows:</strong> target, dates, status and your note.</li>
+  <li><strong>Deletion markers:</strong> a record of which items you deleted, so a deleted item is not copied back
+    from another device.</li>
+</ul>
+<p>Your settings, pictures, recordings and voice templates are <strong>not</strong> synced. Because your jap
+practice and the mantras you choose relate to your religious practice, please sync only if you are comfortable
+with that copy being kept in our cloud database.</p>
+<p>The database's security rules allow only your signed-in account to read or write your data. No other user
+can see it, and nothing is ever published. Google stores it on its servers, which may be outside your country,
+under the <a href="https://firebase.google.com/support/privacy">Firebase privacy and security terms</a>.</p>
+<p><strong>Signing out</strong> keeps everything on your phone and leaves the cloud copy in place, so you can sign
+in again later. To remove the cloud copy, delete your account (section 9).</p>
+
+<h2>3. Microphone and your voice</h2>
+<p>JapDhara asks for the microphone only when you use a feature that needs it:</p>
+<ul>
+  <li><strong>Counting by voice</strong> listens to your chanting and counts each repetition of the mantra. The
+    sound is analysed on your phone by a speech model running inside the app, as you chant. It is not saved and
+    is never sent anywhere.</li>
+  <li><strong>Teaching a mantra</strong> to voice counting saves a small numeric pattern of how you chant that
+    mantra, plus the text the speech model heard, so it can recognise the mantra next time. It is not a
+    recording, it stays on your phone, it is not synced and it is not in backups. You can delete it from the
+    mantra's voice settings.</li>
+  <li><strong>Recording a mantra</strong> in your own voice saves an audio file in the app's storage on your phone,
+    used to recite the mantra in Voice jap and Automatic jap. It is not synced.</li>
+</ul>
+
+<h2>4. Pictures and audio files you add</h2>
+<p>You can give a mantra a picture, taken with your camera app or chosen from your gallery, and an audio file
+chosen from your phone. JapDhara uses Android's own pickers, so it only sees the item you pick. A resized copy
+of the picture, or a copy of the audio, is saved in the app's storage on your phone. Neither is uploaded.</p>
+
+<h2>5. The speech model download</h2>
+<p>Counting by voice needs a speech model of about 70 MB that is not built into the app. When you tap
+<em>Download</em>, JapDhara fetches it once over an encrypted connection from <strong>Hugging Face</strong>
+(huggingface.co), where the open-source model is published, and checks it against a known fingerprint before
+using it. The request contains no information about you or your practice. Like any website, Hugging Face and
+its content delivery network receive your IP address and basic request details, under the
+<a href="https://huggingface.co/privacy">Hugging Face privacy policy</a>. Nothing is sent to Hugging Face after
+the download.</p>
+
+<h2>6. Backups and sharing</h2>
+<ul>
+  <li><strong>Backup file.</strong> <em>Backup › Export</em> creates a .zip file containing your settings, mantras,
+    jap history, sankalpa vows, recordings and pictures. It is not encrypted. It goes only where you send it from
+    Android's share menu, and once saved it is in your control. <em>Import</em> reads a backup file you choose.</li>
+  <li><strong>Android backup.</strong> If backup is turned on in your phone's settings, Android may include
+    JapDhara's data, such as your history, mantras, settings and media, in your device backup with Google. This
+    is a feature of Android that you control, and we cannot access it. The speech model is excluded.</li>
+  <li><strong>Progress cards.</strong> When you share a progress card, the picture (your count, malas, streak and
+    mantra name) goes to the app you choose. It never includes your name or email address.</li>
+</ul>
+<p>When you send something to another app, that app's privacy policy applies.</p>
+
+<h2>7. Other features</h2>
+<ul>
+  <li><strong>Reminders</strong> are scheduled on your phone. We do not send push notifications.</li>
+  <li><strong>App lock</strong> uses Android's fingerprint, face or screen lock. JapDhara only learns whether you
+    unlocked it, never the biometric itself. While the lock is on, JapDhara blocks screenshots and hides the count
+    on the home-screen widget.</li>
+  <li><strong>Voice jap</strong> without a recording reads the mantra aloud with your phone's text-to-speech engine.
+    If you have chosen an engine that uses online voices, that engine's provider handles the text under its own
+    policy.</li>
+</ul>
+
+<h2>8. Permissions</h2>
+<div class="table">
+<table>
+  <tr><th>Permission</th><th>Why JapDhara asks for it</th></tr>
+  <tr><td>Microphone</td><td>Counting by voice, teaching a mantra and recording a mantra (section 3). Asked only when you first use one of them.</td></tr>
+  <tr><td>Notifications</td><td>Daily jap reminders.</td></tr>
+  <tr><td>Run at startup</td><td>Re-arms your reminders after the phone restarts.</td></tr>
+  <tr><td>Biometrics</td><td>The optional app lock.</td></tr>
+  <tr><td>Vibration</td><td>Count and mala feedback.</td></tr>
+  <tr><td>Internet and network state</td><td>The optional sign-in and sync, and the speech model download.</td></tr>
+  <tr><td>Keep awake, foreground work</td><td>Used by Android's job scheduler to keep the home-screen widget up to date.</td></tr>
+</table>
+</div>
+<p>JapDhara does not ask for location, contacts, phone, SMS, camera or storage permissions, and it does not use
+the advertising ID.</p>
+
+<h2>9. Deleting your data and your account</h2>
+<ul>
+  <li><strong>On your phone:</strong> delete individual sittings or mantras, use <em>Backup › Clear jap history</em> or
+    <em>Delete all recordings</em>, clear JapDhara's storage in Android's settings, or uninstall the app.</li>
+  <li><strong>Your account and cloud data:</strong> in the app, open <em>More › Sync</em> and tap
+    <em>Delete account</em>. This permanently deletes your synced data and your sign-in account. Data on your
+    phone is kept until you delete it there.</li>
+  <li><strong>Without the app:</strong> follow the steps on our
+    <a href="delete-account.html">account deletion page</a>. We delete the account and all of its cloud data
+    within 30 days and confirm by email.</li>
+</ul>
+<p>We keep cloud data only while your account exists. We keep no copies after deletion, except where the law
+requires otherwise.</p>
+
+<h2>10. What we do not do</h2>
+<p>JapDhara has no advertising, no analytics, no crash reporting and no tracking. We do not sell, rent or trade
+your information, and we do not share it with anyone except the service providers named above, who process it
+only to run the features you use.</p>
+
+<h2>11. Google Play</h2>
+<p>If you installed JapDhara from Google Play, Google may collect information such as installs and, if you have
+agreed in your device settings, crash and performance reports, under
+<a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. We may see these as anonymous,
+aggregated statistics in the Google Play Console.</p>
+
+<h2>12. Security</h2>
+<p>Everything sent between the app and Google or Hugging Face is encrypted in transit (HTTPS/TLS). Cloud data is
+protected by access rules tied to your account. Data on your phone stays inside Android's app sandbox and is
+protected by your phone's own encryption and screen lock.</p>
+
+<h2>13. Children</h2>
+<p>JapDhara is not directed at children under 13, and we do not knowingly collect personal information from
+children. If you believe a child has signed in to sync, contact us and we will delete the account.</p>
+
+<h2>14. Your rights</h2>
+<p>Depending on where you live, for example under India's Digital Personal Data Protection Act, 2023 or the EU
+GDPR, you may have the right to access, correct or delete your personal data, and to withdraw consent. You can
+see everything JapDhara holds in the app, export it with <em>Backup</em>, stop syncing by signing out, and
+delete your account as described above. For any request or complaint, email us and we will reply within 30 days.</p>
+
+<h2>15. Changes to this policy</h2>
+<p>If we change how JapDhara handles data, we will update this page and its effective date before the change
+reaches the app, and tell you in the app if the change is significant.</p>
+
+<h2>16. Contact</h2>
+<p>JapDhara<br>
+Email: <a href="mailto:varunbansal1409@gmail.com">varunbansal1409@gmail.com</a></p>
+</main>
+</body>
+</html>

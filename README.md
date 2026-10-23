@@ -3,9 +3,10 @@
 Privacy policies and support pages for all my apps, served by GitHub Pages at
 **https://varunbansal1409.github.io/**. Each app has its own folder:
 
-| App | Home page | Privacy policy |
-|---|---|---|
-| Pixelyt (`com.pixelyt.app`) | https://varunbansal1409.github.io/pixelyt/ | https://varunbansal1409.github.io/pixelyt/privacy.html |
+| App | Home page | Privacy policy | Account deletion |
+|---|---|---|---|
+| Pixelyt (`com.pixelyt.app`) | https://varunbansal1409.github.io/pixelyt/ | https://varunbansal1409.github.io/pixelyt/privacy.html | No accounts |
+| JapDhara (`com.japdhara.japdhara`) | https://varunbansal1409.github.io/japdhara/ | https://varunbansal1409.github.io/japdhara/privacy.html | https://varunbansal1409.github.io/japdhara/delete-account.html |
 
 ## Adding another app
 
