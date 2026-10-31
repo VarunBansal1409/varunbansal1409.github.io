@@ -82,13 +82,16 @@ and share:</p>
   <li>diagnostic information, such as crashes and performance;</li>
   <li>device and account identifiers, such as your Android advertising ID and app set ID.</li>
 </ul>
-<p>Google uses this for advertising, analytics and fraud prevention, and it is encrypted in transit. Adverts may be
-personalised unless you opt out or the law in your region limits this. See
+<p>Google uses this for advertising, analytics and fraud prevention, and it is encrypted in transit. See
 <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its
 services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
-<p><strong>Your choices:</strong> you can delete or reset your advertising ID in your phone's settings under
+<p><strong>Consent:</strong> where the law requires a choice, such as in the European Economic Area, the UK and
+Switzerland, the app uses Google's consent platform to ask before adverts are requested. If that choice applies to
+you, you can change it at any time under <em>Settings › About › Advert privacy choices</em>.</p>
+<p><strong>Your other choices:</strong> you can delete or reset your advertising ID in your phone's settings under
 <em>Privacy › Ads</em>, and manage personalised adverts at
-<a href="https://myadcenter.google.com/">My Ad Center</a>. Premium removes adverts.</p>
+<a href="https://myadcenter.google.com/">My Ad Center</a>. Premium removes adverts, and the app then requests
+none.</p>
 
 <h2>4. Premium purchases</h2>
 <p>Premium is optional and is sold through <strong>Google Play</strong>, under
@@ -111,7 +114,8 @@ where you send it, and the receiving app's privacy policy then applies.</p>
   <tr><th>Permission</th><th>Why TrueLevel uses it</th></tr>
   <tr><td>Vibration</td><td>The haptic pulse when you reach level.</td></tr>
   <tr><td>Internet and network state</td><td>Loading adverts in the free version. Measuring works without a connection.</td></tr>
-  <tr><td>Advertising ID</td><td>Declared by the Google Mobile Ads SDK for adverts.</td></tr>
+  <tr><td>Advertising ID and ad services</td><td>Declared by the Google Mobile Ads SDK for adverts, including Android's privacy-preserving advertising features on phones that have them.</td></tr>
+  <tr><td>Keep awake, foreground work</td><td>Used by Android's job scheduler, which the Google Mobile Ads SDK relies on for its background tasks.</td></tr>
   <tr><td>Google Play billing</td><td>Buying and restoring Premium.</td></tr>
 </table>
 </div>
