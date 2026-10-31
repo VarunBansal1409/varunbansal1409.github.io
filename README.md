@@ -8,6 +8,7 @@ Privacy policies and support pages for all my apps, served by GitHub Pages at
 | Pixelyt (`com.pixelyt.app`) | https://varunbansal1409.github.io/pixelyt/ | https://varunbansal1409.github.io/pixelyt/privacy.html | No accounts |
 | JapDhara (`com.japdhara.japdhara`) | https://varunbansal1409.github.io/japdhara/ | https://varunbansal1409.github.io/japdhara/privacy.html | https://varunbansal1409.github.io/japdhara/delete-account.html |
 | TrueLevel (`com.varun.truelevel`) | https://varunbansal1409.github.io/truelevel/ | https://varunbansal1409.github.io/truelevel/privacy.html | No accounts |
+| Metria (`com.metria.measure`) | https://varunbansal1409.github.io/metria/ | https://varunbansal1409.github.io/metria/privacy.html | No accounts |
 
 ## Adding another app
 
@@ -27,3 +28,7 @@ Privacy policies and support pages for all my apps, served by GitHub Pages at
 
 Keep each address stable once it's registered in Play Console or linked from an app. To change a policy,
 edit it in place and update its effective date.
+
+## Ads
+
+`app-ads.txt` sits at the site root because AdMob only looks there. It covers every app under this AdMob account, so don't move it.
