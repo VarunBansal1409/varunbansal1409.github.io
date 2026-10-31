@@ -28,7 +28,7 @@
 <main>
 <header>
   <h1>Metria privacy policy</h1>
-  <div class="muted">Effective 31 October 2026</div>
+  <div class="muted">Effective 1 November 2026</div>
 </header>
 
 <p>This policy explains how the Metria Android app (package <code>com.metria.measure</code>) handles your
@@ -37,7 +37,8 @@ information. Metria is a measuring app published on Google Play by <strong>Metri
 <div class="summary">
   <strong>In short</strong>
   <ul>
-    <li>Your measurements, photos and camera images stay on your phone. We run no servers and never receive them.</li>
+    <li>Your measurements, photos and camera images stay on your phone. We run no servers and never receive them.
+      Android's own backup can include them, as section 2 explains.</li>
     <li>You don't need an account.</li>
     <li>The free version shows ads from Google AdMob. Google collects some device and usage data to serve them.</li>
     <li>Premium is an optional subscription paid through Google Play. We never see your payment details.</li>
@@ -48,7 +49,9 @@ information. Metria is a measuring app published on Google Play by <strong>Metri
 <ul>
   <li><strong>Camera.</strong> To measure in augmented reality, to measure with a bank card in Precision mode, and
     to calibrate the camera. Images are processed on your phone in real time and are not sent to us or to
-    advertisers. They are not saved, except a photo you choose to keep with a measurement.</li>
+    advertisers. They are not saved, with one exception. Precision mode saves an annotated photo on your phone with each
+    measurement, and that photo shows whatever was in view, including the reference card. Turn this off in Settings,
+    under Save annotated photos.</li>
   <li><strong>Motion sensors.</strong> These power the Level. Readings are used live and are not stored, apart from
     the Level's calibration on your phone.</li>
   <li><strong>Screen size.</strong> The Ruler uses your display's reported pixel density to turn pixels into
@@ -60,15 +63,16 @@ information. Metria is a measuring app published on Google Play by <strong>Metri
   <li>Measurements you save: the numbers, their accuracy, the time, any name you type, and optional annotated
     photos.</li>
   <li>Camera calibrations, the Ruler's scale check and the Level's calibration.</li>
-  <li>Your settings, such as units and appearance, and whether you have Premium.</li>
+  <li>Your settings, such as units and appearance, whether you have Premium, and when an ad was last shown.</li>
 </ul>
 <p>All of this lives in the app's private storage, which other apps can't read. We have no copy of it. If you have
-turned on Android's own backup, your phone may include your saved measurements in that backup, which Google manages
-under your account. Photos and calibrations are excluded from it.</p>
+turned on Android's own backup, your phone may include your saved measurements, settings, and Ruler and Level
+checks in that backup, which Google manages under your account. Photos and camera calibrations are excluded from it.</p>
 
 <h2>3. When your measurements leave your phone</h2>
-<p>Only when you choose to send them. If you tap Export or Share, Android shows you the apps you can send a file to,
-and the file goes only to the app you pick. Copying a reading puts it on your clipboard.</p>
+<p>When you choose to send them, and through Android's own backup if you have it turned on (section 2). If you tap
+Export or Share, Android shows you the apps you can send a file to, and the file goes only to the app you pick.
+Copying a reading puts it on your clipboard.</p>
 
 <h2>4. Advertising</h2>
 <p>The free version of Metria shows ads through <strong>Google AdMob</strong>, a service of Google. The Google Mobile
@@ -79,6 +83,7 @@ Ads SDK inside the app collects the following automatically and sends it to Goog
   <li>how you interact with the app and with ads;</li>
   <li>diagnostic information about the app and the ads.</li>
 </ul>
+<p>The ads SDK may also use Android's own advertising features, Topics and attribution, on phones that have them.</p>
 <p>Google uses this for advertising, analytics and fraud prevention. We don't receive it in a form that identifies
 you. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that
 use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
@@ -116,13 +121,13 @@ own policy, and shows us aggregated statistics in the Google Play Console.</p>
   <li><strong>Internet and network state.</strong> Used for ads and purchases, not for your measurements.</li>
   <li><strong>Advertising ID.</strong> Used for ads, as described in section 4.</li>
   <li><strong>Google Play billing.</strong> Used for Premium.</li>
-  <li><strong>Technical permissions.</strong> The ads SDK also adds permissions it needs to run in the background and to use Android's ad services, such as wake lock and foreground service. They give it no access to your camera, files or measurements.</li>
+  <li><strong>Technical permissions.</strong> The ads SDK also adds permissions it needs to run in the background and to use Android's ad services, such as wake lock, foreground service, and Topics and attribution. These permissions add no access to your camera, files or measurements.</li>
 </ul>
 <p>Metria does not ask for your contacts, microphone or precise location.</p>
 
 <h2>9. Keeping and deleting your data</h2>
 <p>What Metria stores stays on your phone until you delete it. Delete any saved measurement from History, or everything
-at once from Settings, then Delete all measurements. Uninstalling the app removes everything it stored. Data collected
+at once from Settings, then Delete all measurements. Uninstalling the app removes everything it stored on the phone. Any Android backup follows your Google Account's settings. Data collected
 by Google is kept and deleted under Google's policies, and you can manage it from your Google Account.</p>
 
 <h2>10. Children</h2>
