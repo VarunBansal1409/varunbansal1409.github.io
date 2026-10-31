@@ -7,6 +7,7 @@ Privacy policies and support pages for all my apps, served by GitHub Pages at
 |---|---|---|---|
 | Pixelyt (`com.pixelyt.app`) | https://varunbansal1409.github.io/pixelyt/ | https://varunbansal1409.github.io/pixelyt/privacy.html | No accounts |
 | JapDhara (`com.japdhara.japdhara`) | https://varunbansal1409.github.io/japdhara/ | https://varunbansal1409.github.io/japdhara/privacy.html | https://varunbansal1409.github.io/japdhara/delete-account.html |
+| TrueLevel (`com.varun.truelevel`) | https://varunbansal1409.github.io/truelevel/ | https://varunbansal1409.github.io/truelevel/privacy.html | No accounts |
 
 ## Adding another app
 
